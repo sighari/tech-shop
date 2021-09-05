@@ -1,0 +1,71 @@
+main {
+  min-height: 80vh;
+}
+
+h3{
+   padding: 1rem 0; 
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  color: #3fb0ac;
+}
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+    margin: 0.1rem;
+}
+img {
+ width: 500px;
+}
+
+.color-nav{
+  background-color: #56659c;
+}
+
+
+
+.profile-color{
+  color: blue;
+}
+.logout-color{
+  color: red;
+}
+
+/* Home screen */
+
+.home {
+  position: relative;
+  background: url('./Images/bg.jpg') repeat  center/cover;
+  height: 100%;
+  width: 100%;
+}
+
+.cnt{
+  display: flex;
+  border: 1px solid black;
+}
+
+.img{
+  border: 1px solid  black;
+  width: 200px;
+  height: 200px;
+}
+
+.shipping{
+  background: url('./Images/shipping.jpg') repeat  center/cover;
+}
+
+.payment{
+  background: url('./Images/payment.jpg') repeat  center/cover;
+}
+
+.placeorder{
+  background: url('./Images/pexels-karolina-grabowska-5632402.jpg') repeat  center/cover;
+  background-size: 700px 400px;
+}
+
